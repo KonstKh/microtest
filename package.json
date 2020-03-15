@@ -1,0 +1,32 @@
+{
+  "name": "micro-test",
+  "version": "0.0.1",
+  "description": "code separation test",
+  "main": "srt/app.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "nodemon",
+    "inspect": "nodemon --inspect src/app.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KonstKh/microtest.git"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.4",
+    "reflect-metadata": "^0.1.13",
+    "typedi": "^0.8.0",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.3",
+    "@types/mongoose": "^5.7.6",
+    "@types/node": "^13.9.1",
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
+  }
+}
